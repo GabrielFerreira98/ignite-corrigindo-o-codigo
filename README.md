@@ -109,3 +109,99 @@ Mantenha o terminal rodando para utilizar o projeto
 A URL base a ser usada como exemplo será uma variável base_url. Considere que ela armazene o valor http://localhost:3333.
 
 ### Rotas
+
+POST - base_url/repositories
+
+#### Descrição
+
+Essa rota realiza o cadastro de um repositório a partir de um title, url e techs
+
+#### Body
+
+```
+{
+  title: 'Some title',
+  url: 'https://github.com/GabrielFerreira98/ignite-corrigindo-o-codigo/edit/main/README.md',
+  techs: 'NodeJS'
+}
+```
+
+#### Resposta
+
+```
+{
+    id: uuid(),
+    title: 'Some title',
+    url: 'https://github.com/GabrielFerreira98/ignite-corrigindo-o-codigo/edit/main/README.md' ,
+    techs: 'NodeJS',
+    likes: 0
+  }
+```
+
+Status code: ```201```
+
+GET - base_url/repositories
+
+#### Descrição
+
+Essa rota retorna todos os repositórios cadastrados
+
+PUT - base_url/repositories/:id
+
+#### Descrição
+
+Essa rota atualiza um repositório com um id
+
+#### Body
+
+```
+{
+  title: 'Some title',
+  url: 'https://github.com/GabrielFerreira98/ignite-corrigindo-o-codigo/edit/main/README.md',
+  techs: 'NodeJS'
+}
+```
+
+#### Resposta
+
+```
+{
+    id: uuid(),
+    title: 'Some title',
+    url: 'https://github.com/GabrielFerreira98/ignite-corrigindo-o-codigo/edit/main/README.md' ,
+    techs: 'NodeJS',
+    likes: 0
+  }
+```
+
+Status code: ```201```
+
+Possível erro
+
+O repositório não existe: ```{error: "Repository not found}``` - Status code: ```404```
+
+
+DELETE - base_url/repositories/:id
+
+#### Descrição
+
+Essa rota deleta um repositório a partir de um id
+
+Possível erro
+
+O repositório não existe: ```{error: "Repository not found}``` - Status code: ```404```
+
+POST - base_url/repositories/:id/likes
+
+Essa rota aumenta em 1 o número de likes de um repositório a partir de um id
+
+Params
+
+```
+id = request.params
+```
+
+Possíveis erros
+
+O repositório não existe: ```{error: "Repository not found}``` - Status code: ```404```
+
