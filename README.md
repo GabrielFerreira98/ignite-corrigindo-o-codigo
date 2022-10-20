@@ -14,15 +14,15 @@ https://www.notion.so/Desafio-03-Corrigindo-o-c-digo-c15c8a2e212846039a367cc7b76
 
 ## 📌 Index
 
-- [Instalando as ferramentas](https://github.com/GabrielFerreira98/ignite-conceitos-do-nodejs#-instalando-as-ferramentas)
-  - [Instalando o NodeJS](https://github.com/GabrielFerreira98/ignite-conceitos-do-nodejs#instalando-o-nodejs)
-  - [Instalando o Yarn](https://github.com/GabrielFerreira98/ignite-conceitos-do-nodejs#instalando-o-yarn)
-  - [Instalando o Insomnia](https://github.com/GabrielFerreira98/ignite-conceitos-do-nodejs#instalando-o-insomnia)
-- [Executando o Projeto](https://github.com/GabrielFerreira98/ignite-conceitos-do-nodejs#-executando-o-projeto)
-- [Inicializando o Projeto](https://github.com/GabrielFerreira98/ignite-conceitos-do-nodejs#-inicializando-o-projeto)
-- [API](https://github.com/GabrielFerreira98/ignite-conceitos-do-nodejs#%EF%B8%8F-api)
-  - [Requisitos da Aplicação](https://github.com/GabrielFerreira98/ignite-conceitos-do-nodejs#requisitos-da-aplica%C3%A7%C3%A3o)
-  - [Rotas](https://github.com/GabrielFerreira98/ignite-conceitos-do-nodejs#rotas)
+- [Instalando as ferramentas](https://github.com/GabrielFerreira98/ignite-corrigindo-o-codigo#-instalando-as-ferramentas)
+  - [Instalando o NodeJS](https://github.com/GabrielFerreira98/ignite-corrigindo-o-codigo#instalando-o-nodejs)
+  - [Instalando o Yarn](https://github.com/GabrielFerreira98/ignite-corrigindo-o-codigo#instalando-o-yarn)
+  - [Instalando o Insomnia](https://github.com/GabrielFerreira98/ignite-corrigindo-o-codigo#instalando-o-insomnia)
+- [Executando o Projeto](https://github.com/GabrielFerreira98/ignite-corrigindo-o-codigo#-executando-o-projeto)
+- [Inicializando o Projeto](https://github.com/GabrielFerreira98/ignite-corrigindo-o-codigo#-inicializando-o-projeto)
+- [API](https://github.com/GabrielFerreira98/ignite-corrigindo-o-codigo#%EF%B8%8F-api)
+  - [Requisitos da Aplicação](https://github.com/GabrielFerreira98/ignite-corrigindo-o-codigo#requisitos-da-aplica%C3%A7%C3%A3o)
+  - [Rotas](https://github.com/GabrielFerreira98/ignite-corrigindo-o-codigo#rotas)
 
 ## 🧰 Instalando as Ferramentas 
 
